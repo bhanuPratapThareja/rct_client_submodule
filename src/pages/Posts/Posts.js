@@ -1,6 +1,6 @@
 function Posts() {
   return (
-    <div>Posts!!</div>
+    <div>Posts for submodule</div>
   )
 }
 export default Posts
