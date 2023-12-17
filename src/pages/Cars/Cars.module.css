@@ -1,0 +1,52 @@
+@import '../../_variables.css';
+
+
+.my_cars {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.my_cars p {
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.list_item {
+    cursor: pointer;
+    border-top: 2px solid #ddd;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+}
+
+.list_item:first-child {
+    border-top-left-radius: var(--list-border-radius);
+    border-top-right-radius: var(--list-border-radius);
+}
+
+.list_item:last-child {
+    border-bottom: 2px solid #ddd;
+    border-bottom-left-radius: var(--list-border-radius);
+    border-bottom-right-radius: var(--list-border-radius);
+}
+
+.list_item:hover {
+    background-color: #ddd;
+}
+
+.delete_icon {
+    border-color: #E53935 !important;
+    color: #E53935 !important;
+    font-weight: 900 !important;
+}
+
+.total_cost {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total_cost h3 {
+    margin-right: 1rem;
+    font-weight: bold;
+}
